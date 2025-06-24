@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/cpp-crow-server/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
