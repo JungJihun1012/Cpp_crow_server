@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crow Web</title>
+  <link rel="stylesheet" href="/static/style.css" />
 </head>
 <body>
-    <h1>C++ 서버 가동</h1>
+  <div class="container">
+    <h1>Hello, Crow!</h1>
+    <p id="message">메세지 로딩중...</p>
+    <button onclick="fetchMessage()">Get Message</button>
+  </div>
+  <script src="/static/script.js"></script>
 </body>
 </html>
